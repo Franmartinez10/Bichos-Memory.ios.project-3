@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1000002" id="com.salvatierragames.bichosmemory" version="1.0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVWebViewEngine">
+        <param name="ios-package" value="CDVWebViewEngine" />
+    </feature>
+    <feature name="LaunchScreen">
+        <param name="ios-package" value="CDVLaunchScreen" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVWKInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AdMob">
+        <param name="ios-package" value="AMBPlugin" />
+    </feature>
+    <feature name="Consent">
+        <param name="ios-package" value="CSNConsent" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Idfa">
+        <param name="ios-package" value="IdfaPlugin" />
+    </feature>
+    <feature name="NativeStorage">
+        <param name="ios-package" value="NativeStorage" />
+    </feature>
+    <name>Bichos Memory</name>
+    <description>A memory game insects themed </description>
+    <author email="yonuncathegame@gmail.com" href="https://www.franmartineztorres.com">Salvatierra Games</author>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="blob:*" />
+    <icon density="xxxhdpi" height="512" src="www/icons/icon-512.png" width="512" />
+    <icon height="192" src="www/icons/icon-256.png" width="192" />
+    <icon density="xxhdpi" height="144" src="www/icons/icon-128.png" width="144" />
+    <icon density="mdpi" height="60" src="www/icons/icon-64.png" width="60" />
+    <icon height="29" src="www/icons/icon-16.png" width="29" />
+    <access origin="*" />
+    <splash src="www/icons/default@2x~universal~anyany.png" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="false" />
+    <preference name="LoadUrlTimeoutValue" value="120000" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="DoCocoaPodsUpdate" value="true" />
+    <preference name="InspectableWebview" value="true" />
+    <preference name="scheme" value="app" />
+    <preference name="hostname" value="localhost" />
+    <preference name="PreferredContentMode" value="mobile" />
+    <preference name="deployment-target" value="12.0" />
+</widget>
